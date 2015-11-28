@@ -1,0 +1,39 @@
+
+
+<h1>Exchange info</h1>
+<div ng-controller="View3Ctrl as ctrl">
+    <table class="table">
+        <thead>
+            <tr >
+                <th>Code: </th>
+                <th>Description: </th>
+                <th>Rate: </th>
+                <th>Date: </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="c in data">
+                <th>{{c.rate}}</th>
+<!--                <th>{{c.rate}}</th>
+                <th>{{}}</th>
+                <th>{{}}</th>-->
+            </tr>
+           
+        </tbody>
+<!--    </table>
+    <h1>Currency Calculator</h1>
+    <div ng-controller="">
+        <table class="table">
+            <input type="text" placeholder="Money" ng-model='$scope.convert().amount'>
+            <select name="from" ng-model="$scope.convert().fromCurrency">
+                <option disabled="">From currency:></option>
+                <option value="" ng-repeat="$scope.currencies"></option>
+            </select>
+            <select name="to" ng-model="$scope.convert().toCurrency">
+                <option disabled="">To currency:></option>
+                <option ng-repeat="$scope.currencies"></option>
+            </select>
+    </div>
+    <button type="button" class="" ng-click="$scope.convert()">Calculate</button>
+    <h3>Now: {{$scope.calculate}}</h3>
+</table>-->
